@@ -14,6 +14,7 @@ var App = React.createClass({
           <li><Link to="user" params={{userId: "123"}}>Bob</Link></li>
           <li><Link to="user" params={{userId: "abc"}}>Sally</Link></li>
         </ul>
+        <h1>HOOBA!</h1>
         <this.props.activeRouteHandler />
       </div>
     );
